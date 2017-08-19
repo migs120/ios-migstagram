@@ -21,7 +21,7 @@
 		BD4E40FF1F09903300A8B0F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD4E41021F09903300A8B0F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD4E41041F09903300A8B0F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD4E410A1F09922500A8B0F6 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		BD4E410A1F09922500A8B0F6 /* RootPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootPageViewController.swift; path = ../RootPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,6 @@
 		BD4E40EC1F09903200A8B0F6 = {
 			isa = PBXGroup;
 			children = (
-				BD4E410A1F09922500A8B0F6 /* RootPageViewController.swift */,
 				BD4E40F71F09903300A8B0F6 /* migstagram */,
 				BD4E40F61F09903300A8B0F6 /* Products */,
 			);
@@ -55,6 +54,7 @@
 		BD4E40F71F09903300A8B0F6 /* migstagram */ = {
 			isa = PBXGroup;
 			children = (
+				BD4E410A1F09922500A8B0F6 /* RootPageViewController.swift */,
 				BD4E40F81F09903300A8B0F6 /* AppDelegate.swift */,
 				BD4E40FC1F09903300A8B0F6 /* Main.storyboard */,
 				BD4E40FF1F09903300A8B0F6 /* Assets.xcassets */,
@@ -297,6 +297,7 @@
 				BD4E41091F09903300A8B0F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
